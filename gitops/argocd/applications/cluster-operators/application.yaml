@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Janus-france-ssa/janus-gitops.git
-    targetRevision: master
+    repoURL: https://github.com/RedHat-Summit-Connect-France-2023/janus-gitops.git
+    targetRevision: main
     path: gitops/cluster-operators/base
   destination:
     server: https://kubernetes.default.svc
